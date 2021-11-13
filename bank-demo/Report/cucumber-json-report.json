@@ -1,0 +1,357 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-07T20:05:02.896Z",
+        "line": 14,
+        "name": "Customer Page validation with an exsisting cutomer",
+        "description": "",
+        "id": "customer-creation-and-login;customer-page-validation-with-an-exsisting-cutomer;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3269214200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on homepage",
+            "match": {
+              "location": "StepDef.Bank.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 129467800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters arun and password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arun",
+                  "offset": 12
+                },
+                {
+                  "val": "password",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDef.Bank.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 632375300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "StepDef.Bank.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67255000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "validate the cutomer page is displayed.",
+            "match": {
+              "location": "StepDef.Bank.validate_the_cutomer_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 62467800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "close the browser",
+            "match": {
+              "location": "StepDef.Bank.teardown()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-07T20:05:07.193Z",
+        "line": 15,
+        "name": "Customer Page validation with an exsisting cutomer",
+        "description": "",
+        "id": "customer-creation-and-login;customer-page-validation-with-an-exsisting-cutomer;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2108382100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on homepage",
+            "match": {
+              "location": "StepDef.Bank.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 118016700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters arun and password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arun",
+                  "offset": 12
+                },
+                {
+                  "val": "password",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDef.Bank.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 653110000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "StepDef.Bank.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35889700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "validate the cutomer page is displayed.",
+            "match": {
+              "location": "StepDef.Bank.validate_the_cutomer_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 59144700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "close the browser",
+            "match": {
+              "location": "StepDef.Bank.teardown()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-07T20:05:10.178Z",
+        "line": 16,
+        "name": "Customer Page validation with an exsisting cutomer",
+        "description": "",
+        "id": "customer-creation-and-login;customer-page-validation-with-an-exsisting-cutomer;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2279918300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on homepage",
+            "match": {
+              "location": "StepDef.Bank.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 112551500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters kashmeera and password123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kashmeera",
+                  "offset": 12
+                },
+                {
+                  "val": "password123",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDef.Bank.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 760548100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "StepDef.Bank.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38307300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "validate the cutomer page is displayed.",
+            "match": {
+              "location": "StepDef.Bank.validate_the_cutomer_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 62967200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "close the browser",
+            "match": {
+              "location": "StepDef.Bank.teardown()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-07T20:05:13.444Z",
+        "line": 17,
+        "name": "Customer Page validation with an exsisting cutomer",
+        "description": "",
+        "id": "customer-creation-and-login;customer-page-validation-with-an-exsisting-cutomer;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2124661200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on homepage",
+            "match": {
+              "location": "StepDef.Bank.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 109496800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters arun and password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arun",
+                  "offset": 12
+                },
+                {
+                  "val": "password",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDef.Bank.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 697042600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "StepDef.Bank.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39130800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "validate the cutomer page is displayed.",
+            "match": {
+              "location": "StepDef.Bank.validate_the_cutomer_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 69360000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "close the browser",
+            "match": {
+              "location": "StepDef.Bank.teardown()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Customer creation and Login",
+    "description": "",
+    "id": "customer-creation-and-login",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/FeatureFiles/Homepage.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="13.758">
+    <testcase classname="Customer creation and Login" name="Customer Page validation with an exsisting cutomer" time="4.283">
+        <system-out><![CDATA[Given User is on homepage...................................................passed
+When User enters arun and password..........................................passed
+And User clicks on Login button.............................................passed
+Then validate the cutomer page is displayed.................................passed
+Then close the browser......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Customer creation and Login" name="Customer Page validation with an exsisting cutomer 2" time="2.981">
+        <system-out><![CDATA[Given User is on homepage...................................................passed
+When User enters arun and password..........................................passed
+And User clicks on Login button.............................................passed
+Then validate the cutomer page is displayed.................................passed
+Then close the browser......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Customer creation and Login" name="Customer Page validation with an exsisting cutomer 3" time="3.259">
+        <system-out><![CDATA[Given User is on homepage...................................................passed
+When User enters kashmeera and password123..................................passed
+And User clicks on Login button.............................................passed
+Then validate the cutomer page is displayed.................................passed
+Then close the browser......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Customer creation and Login" name="Customer Page validation with an exsisting cutomer 4" time="3.046">
+        <system-out><![CDATA[Given User is on homepage...................................................passed
+When User enters arun and password..........................................passed
+And User clicks on Login button.............................................passed
+Then validate the cutomer page is displayed.................................passed
+Then close the browser......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
