@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class HomePageBank {
-
+//this is an object reopsitory
 	@FindBy(css = "input[name='username']")
 	WebElement userName;
 
